@@ -1,0 +1,1202 @@
+TAVFDemoApp
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist AVFDemoApp/AVFDemoApp-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh
+cCpResource AVFDemoApp/config.xml build/AVFDemoApp.app/config.xml
+cCpResource AVFDemoApp/Resources/icons/icon-72.png build/AVFDemoApp.app/icon-72.png
+cCpResource AVFDemoApp/Resources/icons/icon.png build/AVFDemoApp.app/icon.png
+cCpResource AVFDemoApp/Resources/icons/icon@2x.png build/AVFDemoApp.app/icon@2x.png
+cCpResource AVFDemoApp/Resources/Capture.bundle build/AVFDemoApp.app/Capture.bundle
+cCompileXIB /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib
+cCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/es.lproj/Localizable.strings AVFDemoApp/Resources/es.lproj/Localizable.strings
+cCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/en.lproj/Localizable.strings AVFDemoApp/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/se.lproj/Localizable.strings AVFDemoApp/Resources/se.lproj/Localizable.strings
+cCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/de.lproj/Localizable.strings AVFDemoApp/Resources/de.lproj/Localizable.strings
+cCpResource AVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png build/AVFDemoApp.app/Default-Landscape@2x~ipad.png
+cCpResource AVFDemoApp/Resources/splash/Default-Landscape~ipad.png build/AVFDemoApp.app/Default-Landscape~ipad.png
+cCpResource AVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png build/AVFDemoApp.app/Default-Portrait@2x~ipad.png
+cCpResource AVFDemoApp/Resources/splash/Default-Portrait~ipad.png build/AVFDemoApp.app/Default-Portrait~ipad.png
+cCpResource AVFDemoApp/Resources/splash/Default@2x~iphone.png build/AVFDemoApp.app/Default@2x~iphone.png
+cCpResource AVFDemoApp/Resources/splash/Default-568h@2x~iphone.png build/AVFDemoApp.app/Default-568h@2x~iphone.png
+cCpResource AVFDemoApp/Resources/splash/Default~iphone.png build/AVFDemoApp.app/Default~iphone.png
+cCpResource AVFDemoApp/Resources/icons/icon-72@2x.png build/AVFDemoApp.app/icon-72@2x.png
+cProcessPCH /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.pth AVFDemoApp/AVFDemoApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp normal i386
+cGenerateDSYMFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp
+cTouch /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BA63200000000000000110
+t1371169568
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510C8A5000000000001EB540
+t1359776336
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000510C8A4F00000000000C1030
+t1359776335
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000510C8A4F0000000000193640
+t1359776335
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000510C8A4F00000000000226E0
+t1359776335
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510C8A5000000000003D4DF0
+t1359776336
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000510C8A500000000000215DB0
+t1359776336
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510C8A500000000000228FE0
+t1359776336
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000510C8A50000000000009C590
+t1359776336
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510C8A500000000000085620
+t1359776336
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510C8A5100000000003DDFA0
+t1359776337
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000510C8A5200000000002CFBE0
+t1359776338
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510C8A5300000000002DBA50
+t1359776339
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000510C8A5300000000000BCC20
+t1359776339
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000510C8A530000000000030EB0
+t1359776339
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510C8A5400000000001D5750
+t1359776340
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000510C8A54000000000006CC50
+t1359776340
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510C8A550000000000AB6230
+t1359776341
+s11231792
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000051C4892E0000000000000176
+t1371834670
+s374
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000051C4F4A700000000000003B5
+t1371862183
+s949
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000051C4F4E500000000000001A0
+t1371862245
+s416
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000051C4F4F5000000000023B010
+t1371862261
+s2338832
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c0000000051C4F4F60000000000063750
+t1371862262
+s407376
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000051C4F4EF00000000000C37A0
+t1371862255
+s800672
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000051C4F4F1000000000024F730
+t1371862257
+s2422576
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000051C4F4F20000000000023450
+t1371862258
+s144464
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051C4F4F300000000004CC2A0
+t1371862259
+s5030560
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000051C4F4F7000000000038E380
+t1371862263
+s3728256
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000051C4F4F800000000002D3310
+t1371862264
+s2962192
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051C4F4F80000000000207EA0
+t1371862264
+s2129568
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051C4F4F90000000000075CB0
+t1371862265
+s482480
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000051C4F4F900000000000AD190
+t1371862265
+s709008
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051C4F5010000000000426D40
+t1371862273
+s4353344
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000051C4F509000000000032D090
+t1371862281
+s3330192
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000051C4F50C0000000000382690
+t1371862284
+s3679888
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000051C4F51000000000000C1850
+t1371862288
+s792656
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000051C4F510000000000003E4B0
+t1371862288
+s255152
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000051C4F512000000000022AA80
+t1371862290
+s2271872
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000051C4F519000000000007FCB0
+t1371862297
+s523440
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051C4F51A0000000000DE51D0
+t1371862298
+s14569936
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000051C4F57C000000000014DC90
+t1371862396
+s1367184
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.10.6.o
+c0000000051C4F59B00000000000002C4
+t1371862427
+s708
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+c0000000051C4F59C0000000000038300
+t1371862428
+s230144
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+c0000000051C4F59C00000000001C15A0
+t1371862428
+s1840544
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+c0000000051C4F59C00000000000083D0
+t1371862428
+s33744
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c0000000051C4F59C0000000000018240
+t1371862428
+s98880
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c0000000051C4F59C000000000000C560
+t1371862428
+s50528
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+c0000000051C4F59C000000000000D0A0
+t1371862428
+s53408
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+c0000000051C4F59C000000000002F2A0
+t1371862428
+s193184
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+c0000000051C4F59C0000000000003850
+t1371862428
+s14416
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+c0000000051C4F59C0000000000008EE0
+t1371862428
+s36576
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+c0000000051C4F59C000000000000FCF0
+t1371862428
+s64752
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+c0000000051C4F59C00000000000062B0
+t1371862428
+s25264
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+c0000000051C4F59C0000000000045730
+t1371862428
+s284464
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+c0000000051C4F59C000000000000AE00
+t1371862428
+s44544
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c0000000051C4F59C000000000001C580
+t1371862428
+s116096
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c0000000051C4F59C0000000000004FD0
+t1371862428
+s20432
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+c0000000051C4F59C00000000000ACF40
+t1371862428
+s708416
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c0000000051C4F59C0000000000007440
+t1371862428
+s29760
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000051C4F59C000000000000DBA0
+t1371862428
+s56224
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+c0000000051C4F59C0000000000036020
+t1371862428
+s221216
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000051C4F59C00000000000345B0
+t1371862428
+s214448
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+c0000000051C4F59C000000000000D7B0
+t1371862428
+s55216
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+c0000000051C4F59C000000000003FAF0
+t1371862428
+s260848
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+c0000000051C4F421000000000000A218
+t1371862049
+s41496
+
+N/Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c0000000051C11D2E0000000000004AC8
+t1371610414
+s19144
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist
+c0000000051E4D0250000000000000743
+t1373949989
+s1859
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Prefix.pch
+c0000000051E4CF0000000000000003C5
+t1373949696
+s965
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.h
+c0000000051E4CF0000000000000005B9
+t1373949696
+s1465
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m
+c0000000051E4CF0000000000000013DA
+t1373949696
+s5082
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.h
+c0000000051E4CF0000000000000004D0
+t1373949696
+s1232
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m
+c0000000051E4CF00000000000000126B
+t1373949696
+s4715
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib
+c0000000051E4CF000000000000001759
+t1373949696
+s5977
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/Capture.bundle
+c0000000051E4CF00000000000000030E
+t1373949696
+s782
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/de.lproj/Localizable.strings
+c0000000051E4CF0000000000000004BF
+t1373949696
+s1215
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/en.lproj/Localizable.strings
+c0000000051E4CF0000000000000004AA
+t1373949696
+s1194
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/es.lproj/Localizable.strings
+c0000000051E4CF0000000000000004B7
+t1373949696
+s1207
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon-72.png
+c0000000051E4CF000000000000001350
+t1373949696
+s4944
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon-72@2x.png
+c0000000051E4CF000000000000002DBA
+t1373949696
+s11706
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon.png
+c0000000051E4CF000000000000000F3E
+t1373949696
+s3902
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon@2x.png
+c0000000051E4CF000000000000001EBD
+t1373949696
+s7869
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/se.lproj/Localizable.strings
+c0000000051E4CF0000000000000004AB
+t1373949696
+s1195
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-568h@2x~iphone.png
+c0000000051E4CF0000000000000085B1
+t1373949696
+s34225
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051E4CF000000000000012DF4
+t1373949696
+s77300
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Landscape~ipad.png
+c0000000051E4CF000000000000008877
+t1373949696
+s34935
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051E4CF000000000000012B02
+t1373949696
+s76546
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Portrait~ipad.png
+c0000000051E4CF0000000000000085E6
+t1373949696
+s34278
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default@2x~iphone.png
+c0000000051E4CF000000000000007323
+t1373949696
+s29475
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default~iphone.png
+c0000000051E4CF00000000000000289A
+t1373949696
+s10394
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/config.xml
+c0000000051E4E2A70000000000000CFC
+t1373954727
+s3324
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m
+c0000000051E4CF00000000000000045C
+t1373949696
+s1116
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app
+t1373954722
+s782
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM
+t1373950321
+s102
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp
+t1373950321
+s940532
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Capture.bundle
+t1373949964
+s782
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-568h@2x~iphone.png
+t1373949964
+s34225
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Landscape@2x~ipad.png
+t1373949964
+s77300
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Landscape~ipad.png
+t1373949964
+s34935
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Portrait@2x~ipad.png
+t1373949964
+s76546
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Portrait~ipad.png
+t1373949964
+s34278
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default@2x~iphone.png
+t1373949964
+s29475
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default~iphone.png
+t1373949964
+s10394
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist
+t1373954722
+s1043
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/MainViewController.nib
+t1373950320
+s822
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/PkgInfo
+t2
+s0
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/config.xml
+t1373954722
+s3324
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/de.lproj/Localizable.strings
+t1373949964
+s280
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/en.lproj/Localizable.strings
+t1373949964
+s166
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/es.lproj/Localizable.strings
+t1373949964
+s334
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon-72.png
+t1373949964
+s4944
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon-72@2x.png
+t1373949964
+s11706
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon.png
+t1373949964
+s3902
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon@2x.png
+t1373949964
+s7869
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/se.lproj/Localizable.strings
+t1373949964
+s283
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AVFDemoApp.LinkFileList
+c0000000051E4D00B00000000000001F5
+t1373949963
+s501
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o
+t1373950320
+s98332
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o
+t1373950320
+s79716
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o
+t1373950320
+s3184
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh
+c0000000051E4D00B000000000000051A
+t1373949963
+s1306
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVAvailability.h
+c0000000051E4D0050000000000000C47
+t1373949957
+s3143
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+c0000000051E4D00500000000000008BA
+t1373949957
+s2234
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000051E4D0050000000000000473
+t1373949957
+s1139
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+c0000000051E4D0050000000000000501
+t1373949957
+s1281
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000051E4D0050000000000000906
+t1373949957
+s2310
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVPlugin.h
+c0000000051E4D0050000000000000892
+t1373949957
+s2194
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVPluginResult.h
+c0000000051E4D0050000000000000C13
+t1373949957
+s3091
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000051E4D0050000000000000408
+t1373949957
+s1032
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVViewController.h
+c0000000051E4D0050000000000000B67
+t1373949957
+s2919
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVWhitelist.h
+c0000000051E4D00500000000000004B4
+t1373949957
+s1204
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000051E4D00500000000000003A0
+t1373949957
+s928
+
+N/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/libCordova.a
+c0000000051E4D1660000000000370060
+t1373950310
+s3604576
+
+N/usr/lib/libSystem.B.dylib
+c000000005012348D000000000000D2A0
+t1343370381
+s53920
+
+N/usr/lib/system/libcache.dylib
+c00000000501234A10000000000013870
+t1343370401
+s79984
+
+N/usr/lib/system/libcommonCrypto.dylib
+c000000005142A9600000000000030250
+t1363323232
+s197200
+
+N/usr/lib/system/libcompiler_rt.dylib
+c000000005012348C0000000000017910
+t1343370380
+s96528
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000501234A0000000000001A130
+t1343370400
+s106800
+
+N/usr/lib/system/libdnsinfo.dylib
+c000000005142A960000000000000C2A0
+t1363323232
+s49824
+
+N/usr/lib/system/libdyld.dylib
+c00000000501234A100000000000121D0
+t1343370401
+s74192
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000501234A10000000000008CE0
+t1343370401
+s36064
+
+N/usr/lib/system/liblaunch.dylib
+c00000000505AA4E2000000000001D350
+t1348117730
+s119632
+
+N/usr/lib/system/libmacho.dylib
+c00000000501234A00000000000014F90
+t1343370400
+s85904
+
+N/usr/lib/system/libquarantine.dylib
+c0000000051AEAB80000000000000D790
+t1370401664
+s55184
+
+N/usr/lib/system/libremovefile.dylib
+c000000005142A960000000000000C330
+t1363323232
+s49968
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000501234A1000000000000A080
+t1343370401
+s41088
+
+N/usr/lib/system/libsystem_c.dylib
+c000000005142A96000000000001F91C0
+t1363323232
+s2068928
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000051AEAB80000000000001BC00
+t1370401664
+s113664
+
+N/usr/lib/system/libsystem_info.dylib
+c000000005012348D000000000008B580
+t1343370381
+s570752
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000051AEAB8000000000000569B0
+t1370401664
+s354736
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005012348D0000000000070540
+t1343370381
+s460096
+
+N/usr/lib/system/libsystem_notify.dylib
+c000000005012348D0000000000025620
+t1343370381
+s153120
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000051AEAB80000000000000C780
+t1370401664
+s51072
+
+N/usr/lib/system/libunc.dylib
+c000000005012349B000000000000D430
+t1343370395
+s54320
+
+N/usr/lib/system/libunwind.dylib
+c00000000501234A1000000000001BAA0
+t1343370401
+s113312
+
+N/var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.pch
+t1373949982
+s5317272
+
+N/var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.pth
+t1373950320
+s4681092
+
+NAVFDemoApp/AVFDemoApp-Info.plist
+c0000000051E4E2A70000000000000743
+t1373954727
+s1859
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9ab2cf2a1a95b741^e8dacf2a1a95b741^---0#1#0#--18"Check dependencies36"D0A263B4-1483-4D96-A0A3-E19799FC08FB-
+
+CCompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395643120.743606
+e395643120.864635
+r1
+xCompileC
+xbuild/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+o/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.mec85bef00895b741^cd57ddf00895b741^-732"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-395643120#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-395643120#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@125"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m0000000000000000^79#24#79#24#2695#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m0000000000000000^4093"CompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o AVFDemoApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-generated-files.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-own-target-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-all-target-headers.hmap -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-project-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources/i386 -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources -F/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -include /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/AppDelegate.m -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o36"26BB56A5-EC87-40AE-895E-F396B4EA5052-
+
+CCompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395643120.743666
+e395643120.809415
+r1
+xCompileC
+xbuild/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.mbe84bef00895b741^2b35cff00895b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m0000000000000000^4135"CompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o AVFDemoApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-generated-files.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-own-target-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-all-target-headers.hmap -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-project-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources/i386 -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources -F/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -include /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.dia -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.m -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o36"C7FA86B4-D636-4EB9-9703-9A7C0F8DB12D-
+
+CCompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395643120.743658
+e395643120.765623
+r1
+xCompileC
+xbuild/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m8c84bef00895b741^b401c4f00895b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m0000000000000000^4035"CompileC build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o AVFDemoApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-generated-files.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-own-target-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-all-target-headers.hmap -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-project-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources/i386 -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources -F/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -include /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch -MMD -MT dependencies -MF /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.dia -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/main.m -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o36"A53E6C5B-DE96-4E2D-AD87-2DAC13A5163D-
+
+CCompileXIB /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib
+s395643111.225680
+e395643120.422713
+r1
+xCompileXIB
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib
+o2013-07-15 21:51:58.966 Interface Builder Cocoa Touch Tool[4945:f07] CFPreferences: user home directory at file://localhost/Users/ryanwahle/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compiling /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib17d639e70895b741^fc366cf00895b741^-241"2013-07-15 21:51:58.966 Interface Builder Cocoa Touch Tool[4945:f07] CFPreferences: user home directory at file://localhost/Users/ryanwahle/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib0000000000000000^1167"CompileXIB AVFDemoApp/Classes/MainViewController.xib    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/MainViewController.nib /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"89AFA85A-2CC1-4F55-9534-DBC39E4032E2-
+
+CCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/de.lproj/Localizable.strings AVFDemoApp/Resources/de.lproj/Localizable.strings
+s395642764.242479
+e395642764.313719
+r1
+xCopyStringsFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/de.lproj/Localizable.strings
+xAVFDemoApp/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy AVFDemoApp/Resources/de.lproj/Localizable.strings115"CopyStringsFile build/AVFDemoApp.app/de.lproj/Localizable.strings AVFDemoApp/Resources/de.lproj/Localizable.strings9b203e8c0795b741^5854508c0795b741^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/de.lproj/Localizable.strings0000000000000000^812"CopyStringsFile build/AVFDemoApp.app/de.lproj/Localizable.strings AVFDemoApp/Resources/de.lproj/Localizable.strings    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/de.lproj -- AVFDemoApp/Resources/de.lproj/Localizable.strings36"A8AC6141-4E15-4E9D-A4D7-FA5EC61DF3A7-
+
+CCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/en.lproj/Localizable.strings AVFDemoApp/Resources/en.lproj/Localizable.strings
+s395642764.239341
+e395642764.250856
+r1
+xCopyStringsFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/en.lproj/Localizable.strings
+xAVFDemoApp/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy AVFDemoApp/Resources/en.lproj/Localizable.strings115"CopyStringsFile build/AVFDemoApp.app/en.lproj/Localizable.strings AVFDemoApp/Resources/en.lproj/Localizable.strings145b3d8c0795b741^0439408c0795b741^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/en.lproj/Localizable.strings0000000000000000^812"CopyStringsFile build/AVFDemoApp.app/en.lproj/Localizable.strings AVFDemoApp/Resources/en.lproj/Localizable.strings    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/en.lproj -- AVFDemoApp/Resources/en.lproj/Localizable.strings36"C4B99B57-65F2-4AED-94DF-9804F68EE643-
+
+CCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/es.lproj/Localizable.strings AVFDemoApp/Resources/es.lproj/Localizable.strings
+s395642764.239622
+e395642764.272578
+r1
+xCopyStringsFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/es.lproj/Localizable.strings
+xAVFDemoApp/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy AVFDemoApp/Resources/es.lproj/Localizable.strings115"CopyStringsFile build/AVFDemoApp.app/es.lproj/Localizable.strings AVFDemoApp/Resources/es.lproj/Localizable.strings2c653d8c0795b741^11c8458c0795b741^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/es.lproj/Localizable.strings0000000000000000^812"CopyStringsFile build/AVFDemoApp.app/es.lproj/Localizable.strings AVFDemoApp/Resources/es.lproj/Localizable.strings    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/es.lproj -- AVFDemoApp/Resources/es.lproj/Localizable.strings36"A5297B13-5D60-4595-8A45-E7C1DE8C7A60-
+
+CCopyStringsFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/se.lproj/Localizable.strings AVFDemoApp/Resources/se.lproj/Localizable.strings
+s395642764.242557
+e395642764.313811
+r1
+xCopyStringsFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/se.lproj/Localizable.strings
+xAVFDemoApp/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy AVFDemoApp/Resources/se.lproj/Localizable.strings115"CopyStringsFile build/AVFDemoApp.app/se.lproj/Localizable.strings AVFDemoApp/Resources/se.lproj/Localizable.stringsd1233e8c0795b741^4b57508c0795b741^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/se.lproj/Localizable.strings0000000000000000^812"CopyStringsFile build/AVFDemoApp.app/se.lproj/Localizable.strings AVFDemoApp/Resources/se.lproj/Localizable.strings    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/se.lproj -- AVFDemoApp/Resources/se.lproj/Localizable.strings36"C748F0AC-5530-40AE-B799-4C884815888F-
+
+CCpResource AVFDemoApp/Resources/Capture.bundle build/AVFDemoApp.app/Capture.bundle
+s395642764.239329
+e395642764.249424
+r1
+xCpResource
+xAVFDemoApp/Resources/Capture.bundle
+xbuild/AVFDemoApp.app/Capture.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/AVFDemoApp.app/Capture.bundle82"CpResource AVFDemoApp/Resources/Capture.bundle build/AVFDemoApp.app/Capture.bundle9f563d8c0795b741^83da3f8c0795b741^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Capture.bundle003858c3ddffdf42^846"CpResource AVFDemoApp/Resources/Capture.bundle build/AVFDemoApp.app/Capture.bundle    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/Capture.bundle /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"4F39ECCF-B36A-4C07-9D2C-591583131867-
+
+CCpResource AVFDemoApp/Resources/icons/icon-72.png build/AVFDemoApp.app/icon-72.png
+s395642764.239248
+e395642764.242359
+r1
+xCpResource
+xAVFDemoApp/Resources/icons/icon-72.png
+xbuild/AVFDemoApp.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/AVFDemoApp.app/icon-72.png82"CpResource AVFDemoApp/Resources/icons/icon-72.png build/AVFDemoApp.app/icon-72.png98503d8c0795b741^800b3e8c0795b741^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon-72.png003858c3ddffdf42^849"CpResource AVFDemoApp/Resources/icons/icon-72.png build/AVFDemoApp.app/icon-72.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon-72.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"44297D1E-2105-458E-90CC-FEFBC2B825FA-
+
+CCpResource AVFDemoApp/Resources/icons/icon-72@2x.png build/AVFDemoApp.app/icon-72@2x.png
+s395642764.257408
+e395642764.260904
+r1
+xCpResource
+xAVFDemoApp/Resources/icons/icon-72@2x.png
+xbuild/AVFDemoApp.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/AVFDemoApp.app/icon-72@2x.png88"CpResource AVFDemoApp/Resources/icons/icon-72@2x.png build/AVFDemoApp.app/icon-72@2x.png56f2418c0795b741^32cb428c0795b741^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon-72@2x.png003858c3ddffdf42^858"CpResource AVFDemoApp/Resources/icons/icon-72@2x.png build/AVFDemoApp.app/icon-72@2x.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon-72@2x.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"F8348800-7B5F-4888-91DF-D3DE704CB394-
+
+CCpResource AVFDemoApp/Resources/icons/icon.png build/AVFDemoApp.app/icon.png
+s395642764.239295
+e395642764.244770
+r1
+xCpResource
+xAVFDemoApp/Resources/icons/icon.png
+xbuild/AVFDemoApp.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/AVFDemoApp.app/icon.png76"CpResource AVFDemoApp/Resources/icons/icon.png build/AVFDemoApp.app/icon.pngbd533d8c0795b741^93a93e8c0795b741^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon.png003858c3ddffdf42^840"CpResource AVFDemoApp/Resources/icons/icon.png build/AVFDemoApp.app/icon.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"F2099B8F-B56F-4A75-BF16-29AC35E70470-
+
+CCpResource AVFDemoApp/Resources/icons/icon@2x.png build/AVFDemoApp.app/icon@2x.png
+s395642764.239316
+e395642764.243561
+r1
+xCpResource
+xAVFDemoApp/Resources/icons/icon@2x.png
+xbuild/AVFDemoApp.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/AVFDemoApp.app/icon@2x.png82"CpResource AVFDemoApp/Resources/icons/icon@2x.png build/AVFDemoApp.app/icon@2x.png1e513d8c0795b741^ab5a3e8c0795b741^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/icon@2x.png003858c3ddffdf42^849"CpResource AVFDemoApp/Resources/icons/icon@2x.png build/AVFDemoApp.app/icon@2x.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/icons/icon@2x.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"5251E43D-C427-4229-BD97-B1DFAE3A2F0F-
+
+CCpResource AVFDemoApp/Resources/splash/Default-568h@2x~iphone.png build/AVFDemoApp.app/Default-568h@2x~iphone.png
+s395642764.256223
+e395642764.259777
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default-568h@2x~iphone.png
+xbuild/AVFDemoApp.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/AVFDemoApp.app/Default-568h@2x~iphone.png113"CpResource AVFDemoApp/Resources/splash/Default-568h@2x~iphone.png build/AVFDemoApp.app/Default-568h@2x~iphone.png6ea3418c0795b741^4581428c0795b741^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-568h@2x~iphone.png003858c3ddffdf42^896"CpResource AVFDemoApp/Resources/splash/Default-568h@2x~iphone.png build/AVFDemoApp.app/Default-568h@2x~iphone.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-568h@2x~iphone.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"407F4C93-A981-498E-9EF7-3971FC223D2A-
+
+CCpResource AVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png build/AVFDemoApp.app/Default-Landscape@2x~ipad.png
+s395642764.244705
+e395642764.252904
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/AVFDemoApp.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/AVFDemoApp.app/Default-Landscape@2x~ipad.png119"CpResource AVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png build/AVFDemoApp.app/Default-Landscape@2x~ipad.png7db23e8c0795b741^1abf408c0795b741^---0#0#1#-19%DVTDocumentLocation2@137"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Landscape@2x~ipad.png003858c3ddffdf42^905"CpResource AVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png build/AVFDemoApp.app/Default-Landscape@2x~ipad.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Landscape@2x~ipad.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"7B80D5E6-8487-4545-915B-7354991E7B33-
+
+CCpResource AVFDemoApp/Resources/splash/Default-Landscape~ipad.png build/AVFDemoApp.app/Default-Landscape~ipad.png
+s395642764.245937
+e395642764.253983
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default-Landscape~ipad.png
+xbuild/AVFDemoApp.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/AVFDemoApp.app/Default-Landscape~ipad.png113"CpResource AVFDemoApp/Resources/splash/Default-Landscape~ipad.png build/AVFDemoApp.app/Default-Landscape~ipad.pngcd043f8c0795b741^5c05418c0795b741^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Landscape~ipad.png003858c3ddffdf42^896"CpResource AVFDemoApp/Resources/splash/Default-Landscape~ipad.png build/AVFDemoApp.app/Default-Landscape~ipad.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Landscape~ipad.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"B5E9A2A1-C6D7-4066-B6D4-EC53B8DBE07E-
+
+CCpResource AVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png build/AVFDemoApp.app/Default-Portrait@2x~ipad.png
+s395642764.250626
+e395642764.255088
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/AVFDemoApp.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/AVFDemoApp.app/Default-Portrait@2x~ipad.png117"CpResource AVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png build/AVFDemoApp.app/Default-Portrait@2x~ipad.pngb83a408c0795b741^944d418c0795b741^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Portrait@2x~ipad.png003858c3ddffdf42^902"CpResource AVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png build/AVFDemoApp.app/Default-Portrait@2x~ipad.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Portrait@2x~ipad.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"D2EA91D0-96EF-4B45-ADC6-441A9F8D7E82-
+
+CCpResource AVFDemoApp/Resources/splash/Default-Portrait~ipad.png build/AVFDemoApp.app/Default-Portrait~ipad.png
+s395642764.252091
+e395642764.256258
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default-Portrait~ipad.png
+xbuild/AVFDemoApp.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/AVFDemoApp.app/Default-Portrait~ipad.png111"CpResource AVFDemoApp/Resources/splash/Default-Portrait~ipad.png build/AVFDemoApp.app/Default-Portrait~ipad.png2596408c0795b741^849a418c0795b741^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default-Portrait~ipad.png003858c3ddffdf42^893"CpResource AVFDemoApp/Resources/splash/Default-Portrait~ipad.png build/AVFDemoApp.app/Default-Portrait~ipad.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default-Portrait~ipad.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"7223FC47-38D5-4D54-8640-0505E870B45F-
+
+CCpResource AVFDemoApp/Resources/splash/Default@2x~iphone.png build/AVFDemoApp.app/Default@2x~iphone.png
+s395642764.254076
+e395642764.257438
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default@2x~iphone.png
+xbuild/AVFDemoApp.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/AVFDemoApp.app/Default@2x~iphone.png103"CpResource AVFDemoApp/Resources/splash/Default@2x~iphone.png build/AVFDemoApp.app/Default@2x~iphone.png5d18418c0795b741^1de8418c0795b741^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default@2x~iphone.png003858c3ddffdf42^881"CpResource AVFDemoApp/Resources/splash/Default@2x~iphone.png build/AVFDemoApp.app/Default@2x~iphone.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default@2x~iphone.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"8BBFBEA6-41F8-451E-A248-D3E27DAD2F5F-
+
+CCpResource AVFDemoApp/Resources/splash/Default~iphone.png build/AVFDemoApp.app/Default~iphone.png
+s395642764.254132
+e395642764.258557
+r1
+xCpResource
+xAVFDemoApp/Resources/splash/Default~iphone.png
+xbuild/AVFDemoApp.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/AVFDemoApp.app/Default~iphone.png97"CpResource AVFDemoApp/Resources/splash/Default~iphone.png build/AVFDemoApp.app/Default~iphone.png081c418c0795b741^1f31428c0795b741^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Default~iphone.png003858c3ddffdf42^872"CpResource AVFDemoApp/Resources/splash/Default~iphone.png build/AVFDemoApp.app/Default~iphone.png    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/Resources/splash/Default~iphone.png /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"57082063-93F6-433F-8B93-0593824DBD26-
+
+CCpResource AVFDemoApp/config.xml build/AVFDemoApp.app/config.xml
+s395647531.027319
+e395647531.029360
+r1
+xCpResource
+xAVFDemoApp/config.xml
+xbuild/AVFDemoApp.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/AVFDemoApp.app/config.xml8411072b1a95b741^6684072b1a95b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/config.xml0000000000000000^804"CpResource AVFDemoApp/config.xml build/AVFDemoApp.app/config.xml    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/config.xml /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"EE8E84DE-AF9E-4E9B-90EF-66C5952922FB-
+
+CGenerateDSYMFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp
+s395643121.800909
+e395643121.975597
+r1
+xGenerateDSYMFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generate /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM541acdf10895b741^0dc1f9f10895b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM/0000000000000000^820"GenerateDSYMFile build/AVFDemoApp.app.dSYM build/AVFDemoApp.app/AVFDemoApp    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app.dSYM36"77187B49-0425-48E0-96A2-A7999E2F046B-
+
+CLd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp normal i386
+s395643120.871677
+e395643121.794109
+r1
+xLd
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp
+xnormal
+xi386
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AVFDemoApp.LinkFileList
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/libCordova.a
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.10.6.o
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/main.o
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AppDelegate.o
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp5247dff00895b741^344acbf10895b741^---0#0#0#--2098"Ld build/AVFDemoApp.app/AVFDemoApp normal i386    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -F/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -filelist /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AVFDemoApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/AVFDemoApp36"245F00C0-BADC-4FC8-978D-3096B384EBCE-
+
+CMkDir /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app
+s395642792.262623
+e395642792.268689
+r1
+xMkDir
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"MkDir build/AVFDemoApp.app26"MkDir build/AVFDemoApp.appc95a43a80795b741^a7c944a80795b741^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/0000000000000000^589"MkDir build/AVFDemoApp.app    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /bin/mkdir -p /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"4AD38749-0912-48A4-82BF-C0E59C1D3005-
+
+CPhaseScriptExecution "Copy www directory" /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh
+s395647530.830505
+e395647531.019289
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.174s
+ouser	0m0.073s
+osys	0m0.091s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'9a25d52a1a95b741^f5f1042b1a95b741^-42"real	0m0.174suser	0m0.073ssys	0m0.091s3(21%IDEActivityLogMessage2@14"real	0m0.174s-395647531#1#14#-0#-----2@14"user	0m0.073s-395647531#15#14#-0#-----2@13"sys	0m0.091s-395647531#29#13#-0#-----0#0#0#--22142"PhaseScriptExecution "Copy www directory" build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ryanwahle    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv BUILD_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv CACHE_ROOT /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH AVFDemoApp.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH AVFDemoApp.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/AVFDemoApp.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME AVFDemoApp.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH AVFDemoApp.app/Executables    setenv EXECUTABLE_FOLDER_PATH AVFDemoApp.app    setenv EXECUTABLE_NAME AVFDemoApp    setenv EXECUTABLE_PATH AVFDemoApp.app/AVFDemoApp    setenv FILE_LIST /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH AVFDemoApp.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME AVFDemoApp.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER AVFDemoApp/AVFDemoApp-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include\" \"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include\" \"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include\" \"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE AVFDemoApp/AVFDemoApp-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH AVFDemoApp.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH AVFDemoApp.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/AVFDemoApp.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ryanwahle    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/AVFDemoApp.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH AVFDemoApp.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AVFDemoApp.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH AVFDemoApp.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal    setenv OBJROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH AVFDemoApp.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/PkgInfo    setenv PKGINFO_PATH AVFDemoApp.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH AVFDemoApp.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH AVFDemoApp.app/PrivateHeaders    setenv PRODUCT_NAME AVFDemoApp    setenv PRODUCT_SETTINGS_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT AVFDemoApp    setenv PROJECT_DERIVED_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/DerivedSources    setenv PROJECT_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PROJECT_FILE_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp.xcodeproj    setenv PROJECT_NAME AVFDemoApp    setenv PROJECT_TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build    setenv PROJECT_TEMP_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH AVFDemoApp.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH AVFDemoApp.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH AVFDemoApp.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH AVFDemoApp.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv SPARROW_SRC /Users/ryanwahle/Desktop/Gamua-Sparrow-Framework/sparrow/src/    setenv SRCROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME AVFDemoApp    setenv TARGET_BUILD_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv TARGET_NAME AVFDemoApp    setenv TARGET_TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_FILES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH AVFDemoApp.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ryanwahle    setenv USER_APPS_DIR /Users/ryanwahle/Applications    setenv USER_LIBRARY_DIR /Users/ryanwahle/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH AVFDemoApp.app/version.plist    setenv VERSION_INFO_BUILDER ryanwahle    setenv VERSION_INFO_FILE AVFDemoApp_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AVFDemoApp  PROJECT:AVFDemoApp-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME AVFDemoApp.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh36"445D9851-D931-4AEB-A45E-2BE4B18320D0-
+
+CPhaseScriptExecution Copy\ www\ directory /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh
+s395642792.341564
+e395642792.518028
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.158s
+ouser	0m0.067s
+osys	0m0.081s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'138"PhaseScriptExecution Copy\ www\ directory build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh234958a80795b741^959f84a80795b741^-42"real	0m0.158suser	0m0.067ssys	0m0.081s3(21%IDEActivityLogMessage2@14"real	0m0.158s-395642792#1#14#-0#-----2@14"user	0m0.067s-395642792#15#14#-0#-----2@13"sys	0m0.081s-395642792#29#13#-0#-----0#0#1#--24645"PhaseScriptExecution Copy\ www\ directory build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ryanwahle    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv BUILD_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv CACHE_ROOT /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode    setenv CCHROOT /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH AVFDemoApp.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode5-DP2.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode5-DP2.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode5-DP2.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode5-DP2.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH AVFDemoApp.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/AVFDemoApp.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME AVFDemoApp.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH AVFDemoApp.app/Executables    setenv EXECUTABLE_FOLDER_PATH AVFDemoApp.app    setenv EXECUTABLE_NAME AVFDemoApp    setenv EXECUTABLE_PATH AVFDemoApp.app/AVFDemoApp    setenv FILE_LIST /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH AVFDemoApp.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME AVFDemoApp.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER AVFDemoApp/AVFDemoApp-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include \"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include\" \"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include\" \"/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE AVFDemoApp/AVFDemoApp-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH AVFDemoApp.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH AVFDemoApp.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/AVFDemoApp.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ryanwahle    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/AVFDemoApp.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH AVFDemoApp.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AVFDemoApp_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode5-DP2.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal/i386/AVFDemoApp.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH AVFDemoApp.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv MODULE_CACHE_DIR /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Objects-normal    setenv OBJROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/local/bin:/Applications/Xcode5-DP2.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode5-DP2.app/Contents/Developer/Headers /Applications/Xcode5-DP2.app/Contents/Developer/SDKs /Applications/Xcode5-DP2.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH AVFDemoApp.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/PkgInfo    setenv PKGINFO_PATH AVFDemoApp.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode5-DP2.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11A4400e    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH AVFDemoApp.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH AVFDemoApp.app/PrivateHeaders    setenv PRODUCT_NAME AVFDemoApp    setenv PRODUCT_SETTINGS_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT AVFDemoApp    setenv PROJECT_DERIVED_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/DerivedSources    setenv PROJECT_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PROJECT_FILE_PATH /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp.xcodeproj    setenv PROJECT_NAME AVFDemoApp    setenv PROJECT_TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build    setenv PROJECT_TEMP_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH AVFDemoApp.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH AVFDemoApp.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11A4400e    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH AVFDemoApp.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH AVFDemoApp.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv SPARROW_SRC /Users/ryanwahle/Desktop/Gamua-Sparrow-Framework/sparrow/src/    setenv SRCROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode5-DP2.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode5-DP2.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode5-DP2.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode5-DP2.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode5-DP2.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME AVFDemoApp    setenv TARGET_BUILD_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv TARGET_NAME AVFDemoApp    setenv TARGET_TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_FILES_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_FILE_DIR /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build    setenv TEMP_ROOT /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH AVFDemoApp.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ryanwahle    setenv USER_APPS_DIR /Users/ryanwahle/Applications    setenv USER_LIBRARY_DIR /Users/ryanwahle/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH AVFDemoApp.app/version.plist    setenv VERSION_INFO_BUILDER ryanwahle    setenv VERSION_INFO_FILE AVFDemoApp_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:AVFDemoApp  PROJECT:AVFDemoApp-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME AVFDemoApp.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode5-DP2.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A11315e    setenv XCODE_VERSION_ACTUAL 0500    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH AVFDemoApp.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    #!/bin/shSRC_DIR="www/"DST_DIR="$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/www"COPY_HIDDEN=ORIG_IFS=$IFSIFS=$(echo -en "\n\b")if [[ ! -e "$SRC_DIR" ]]; then  echo "Path does not exist: $SRC_DIR"  exit 1fiif [[ -n $COPY_HIDDEN ]]; then  alias do_find='find "$SRC_DIR"'else  alias do_find='find -L "$SRC_DIR" -name ".*" -prune -o'fitime (# Code signing files must be removed or else there are# resource signing errors.rm -rf "$DST_DIR" \       "$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/_CodeSignature" \       "$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/PkgInfo" \       "$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/embedded.mobileprovision"# Directoriesfor p in $(do_find -type d -print); do  subpath="${p#$SRC_DIR}"  mkdir "$DST_DIR$subpath" || exit 1done# Symlinksfor p in $(do_find -type l -print); do  subpath="${p#$SRC_DIR}"  source=$(readlink $SRC_DIR$subpath)  sourcetype=$(stat -f "%HT%SY" $source)  if [ "$sourcetype" = "Directory" ]; then    mkdir "$DST_DIR$subpath" || exit 2  else    rsync -a "$source" "$DST_DIR$subpath" || exit 3  fidone# Filesfor p in $(do_find -type f -print); do  subpath="${p#$SRC_DIR}"  if ! ln "$SRC_DIR$subpath" "$DST_DIR$subpath" 2>/dev/null; then    rsync -a "$SRC_DIR$subpath" "$DST_DIR$subpath" || exit 4  fidone)IFS=$ORIG_IFS    /bin/sh -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/Script-304B58A110DAC018002A0835.sh36"4082D1CD-3D86-407D-93C5-0F142B48CF9B-
+
+CProcessInfoPlistFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist
+s395642792.262605
+e395642792.330747
+r1
+xProcessInfoPlistFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Process /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist85"ProcessInfoPlistFile build/AVFDemoApp.app/Info.plist AVFDemoApp/AVFDemoApp-Info.plistb85a43a80795b741^e2ac54a80795b741^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist0000000000000000^1184"ProcessInfoPlistFile build/AVFDemoApp.app/Info.plist AVFDemoApp/AVFDemoApp-Info.plist    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    AVFDemoApp AVFDemoApp 10.6 5.0 1,2 /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk com.apple.compilers.llvm.clang.1_0 0500 5A11315e 11A4400e 11A4400e 12E55    builtin-infoPlistUtility /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist -genpkginfo /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist36"5D203E45-20E4-4637-AB96-C908F439E82B-
+
+CProcessInfoPlistFile /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist AVFDemoApp/AVFDemoApp-Info.plist
+s395647530.818790
+e395647530.822254
+r1
+xProcessInfoPlistFile
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist
+xAVFDemoApp/AVFDemoApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process AVFDemoApp/AVFDemoApp-Info.plist31b1d12a1a95b741^3d7fd22a1a95b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Info.plist0000000000000000^870"ProcessInfoPlistFile build/AVFDemoApp.app/Info.plist AVFDemoApp/AVFDemoApp-Info.plist    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    builtin-infoPlistUtility AVFDemoApp/AVFDemoApp-Info.plist -genpkginfo /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app/Info.plist36"24A21738-919A-4779-93FC-3B35F9756109-
+
+CProcessPCH /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.pch AVFDemoApp/AVFDemoApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395642782.725870
+e395642782.975432
+r1
+xProcessPCH
+x/var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.pch
+xAVFDemoApp/AVFDemoApp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile AVFDemoApp/AVFDemoApp-Prefix.pch302"ProcessPCH /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.pch AVFDemoApp/AVFDemoApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercceeb99e0795b741^e9b5f99e0795b741^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Prefix.pch0000000000000000^4205"ProcessPCH /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.pch AVFDemoApp/AVFDemoApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5-DP2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode5-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5-DP2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-generated-files.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-own-target-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-all-target-headers.hmap -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-project-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources/i386 -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources -F/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build --serialize-diagnostics /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.d -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Prefix.pch -o /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.DeveloperTools/5.0-5A11315e/Xcode/SharedPrecompiledHeaders/AVFDemoApp-Prefix-gjefomrphadyouddcvjaeassvfxt/AVFDemoApp-Prefix.pch.pch36"EBF7FE15-9E39-41B2-819C-EA060838E196-
+
+CProcessPCH /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.pth AVFDemoApp/AVFDemoApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395643120.430725
+e395643120.736652
+r1
+xProcessPCH
+x/var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.pth
+xAVFDemoApp/AVFDemoApp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile AVFDemoApp/AVFDemoApp-Prefix.pchf25d6ef00895b741^4f94bcf00895b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Prefix.pch0000000000000000^3997"ProcessPCH /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.pth AVFDemoApp/AVFDemoApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-generated-files.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-own-target-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-all-target-headers.hmap -iquote /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/AVFDemoApp-project-headers.hmap -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/usr/local/lib/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/UninstalledProducts/include -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources/i386 -I/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.build/Debug-iphonesimulator/AVFDemoApp.build/DerivedSources -F/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build --serialize-diagnostics /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.dia -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/AVFDemoApp/AVFDemoApp-Prefix.pch -o /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/cg/ndrg9tyn0g743tlkzhm059n80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVFDemoApp-Prefix-choyjvtovnkrmpbzumlptiyyqdep/AVFDemoApp-Prefix.pch.d36"048C0786-A423-479E-B99D-DB4B07B61540-
+
+CTouch /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app
+s395647531.065757
+e395647531.070212
+r1
+xTouch
+x/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.appc5e5102b1a95b741^55fa112b1a95b741^---0#0#0#--583"Touch build/AVFDemoApp.app    cd /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/platform-tools:/Users/ryanwahle/Desktop/adt-bundle-mac-x86_64-20130514/sdk/tools"    /usr/bin/touch -c /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/ios/build/AVFDemoApp.app36"4EBA5CA2-C756-494F-AA99-FF730F709C42-
+
