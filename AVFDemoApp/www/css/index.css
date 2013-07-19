@@ -3,7 +3,7 @@ Ryan Wahle
 AVF1307
  */
  
-/* Cordova Code */
+/* Cordova Code w/modifications */
 
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
@@ -13,26 +13,144 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
-    );
-    background-attachment:fixed;
+    background-color:#ffffff;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:10pt/1.5em;
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
     width:100%;
+
 }
 
 /* My Code */
+header {
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-align: right;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
 
+header h1 {	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 10pt;
+	font-size: 16pt;
+	
+}
+
+header h2 {	
+	margin: 1px;
+	padding-right: 10pt;
+	font-size: 8pt;
+}
+
+header h3 {
+	text-align: center;
+}
+
+section {
+	background-color: #fff;	
+	padding-bottom: 0pt;
+	margin: 0pt;
+}
+
+section h3 {
+	background-color: #00CED1;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	
+	color: #ffffff;
+	
+	font-family: Gill Sans, Verdana;
+	font-size: 12px;
+	line-height: 17px;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+section li {
+	list-style: none;
+	padding: 5pt;
+	
+	font-family: "Lucida Grande", Tahoma;
+	font-size: 10px;
+	font-weight: lighter;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #666666;
+    margin-top: 10px;
+	text-align: left;
+	letter-spacing: 0.3em;
+}
+
+section a {
+	text-decoration: none;
+	color: #000000;
+}
+
+article h3 {
+	background-color: #00CED1;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	
+	color: #ffffff;
+	
+	font-family: Gill Sans, Verdana;
+	font-size: 12px;
+	line-height: 17px;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+article p {
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: left;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+	padding-left: 5pt;
+	padding-right: 5pt;
+}
+
+footer {
+	background-color: #000000;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	
+	color: #ffffff;
+	
+	font-family: Gill Sans, Verdana;
+	font-size: 12px;
+	line-height: 17px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+footer a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+img {
+	display: inline;
+	padding: 0pt;
+	margin: 0pt;
+}

@@ -29,11 +29,14 @@
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/css \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/img \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/index.html \
+/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/instagram.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/js \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/res \
+/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/research-data-project.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/Untitled \
+/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/weather.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/css/images \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/css/index.css \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/css/jquery.mobile-1.3.1.css \
