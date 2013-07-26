@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Ryan Wahle
+AVF 1307
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>AVF1307</title>
+    </head>
+    <body>
+    		<header>
+    			<h1>Native</h1>
+    			<h2>GPS</h2>
+    		</header>
+    		
+    		<section>
+    			<h3>Your current location is <span id="currentLocation"></span></h3>
+    			<h3>The current temperature in your location is <span id="currentTemperature"></span></h3>
+    		</section>
+    		
+    		<footer>
+    		    	<a href="index.html">Back</a>
+    		</footer>
+
+    		    		
+        <script type="text/javascript" src="cordova.js"></script>
+        	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+            gps.initialize();
+        </script>
+    </body>
+</html>

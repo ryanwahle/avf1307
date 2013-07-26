@@ -16,6 +16,8 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener("deviceready", connection.initialize, true);
+        document.addEventListener("deviceready", compass.initialize, true);
     },
     // deviceready Event Handler
     //
@@ -27,22 +29,26 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+        //var listeningElement = parentElement.querySelector('.listening');
+        //var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        //listeningElement.setAttribute('style', 'display:none;');
+        //receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        //console.log('Received Event: ' + id);
     }
 };
 
 /* My Code */
 
 var weather = {
-	loadJSON: function() {
+	initialize: function() {
+		weather.loadJSON('85044');
+	},
 	
-		var url = 'http://api.worldweatheronline.com/free/v1/weather.ashx?key=eqwpuh87cn2a5exwnnf2cbgf&q=85044&num_of_days=1&format=json&callback=?';
+	loadJSON: function(locationString) {
+	
+		var url = 'http://api.worldweatheronline.com/free/v1/weather.ashx?key=eqwpuh87cn2a5exwnnf2cbgf&q=' + locationString + '&num_of_days=1&format=json&callback=?';
 		
 		// data.current_condition[0].temp_F
 		
@@ -71,5 +77,62 @@ var instagram = {
 			
 			});
 		});
+	}
+};
+
+var gps = {
+	initialize: function() {
+		navigator.geolocation.getCurrentPosition(gps.decodePosition);
+	},
+	
+	decodePosition: function(position) {
+		var currentLocationString = position.coords.latitude + ',' +  position.coords.longitude;
+		console.log(currentLocationString);
+		$('#currentLocation').text(currentLocationString);
+		weather.loadJSON(currentLocationString);
+	}
+};
+
+var notifications = {
+	initialize: function() {
+		$('#notificationsAlert').click(notifications.alert);
+		$('#notificationsBeep').click(notifications.beep);
+	},
+	
+	alert: function() {
+		console.log('alert');
+		navigator.notification.alert('This is a sample alert box!', notifications.alertDismiss, 'AVF 1307', 'Dismiss');
+		return false;
+	},
+	
+	alertDismiss: function() {
+		console.log('alert dismissed');
+	},
+	
+	beep: function() {
+		navigator.notification.beep(3);
+	}
+};
+
+var compass = {
+	initialize: function() {
+		console.log('entered compass');
+		var tempID = navigator.compass.watchHeading(compass.displayCurrentHeading, compass.compassError, {frequency: 5000});
+		console.log('exit compass');
+	},
+	
+	compassError: function(error) {
+		$('#compassHeading').text('ERROR READING FROM COMPASS');
+	},
+	
+	displayCurrentHeading: function(heading) {
+		$('#compassHeading').text(heading.magneticHeading);
+	}
+};
+
+var connection = {
+	initialize: function() {
+		var networkType = navigator.connection.type;
+		$('#connectionType').text(networkType);
 	}
 };
