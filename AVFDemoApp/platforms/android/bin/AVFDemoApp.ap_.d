@@ -21,7 +21,6 @@
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/bin/res/drawable-xhdpi/ic_launcher.png \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/bin/res/drawable-xhdpi/icon.png \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/accessibility.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/beep.wav \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/comingsoon.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/compass.html \
@@ -38,9 +37,8 @@
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/js \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/notifications.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/res \
+/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/research-data-accessibility.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/research-data-project.html \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/Untitled \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/weather.html \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/css/images \
@@ -116,12 +114,4 @@
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/res/screen/tizen/README.md \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/res/screen/webos/screen-64.png \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/res/screen/windows-phone/screen-portrait.jpg \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/helper.js \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/index.js \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/lib \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/lib/jasmine-1.2.0 \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine.css \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine.js \
-/Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/assets/www/spec/lib/jasmine-1.2.0/MIT.LICENSE \
 /Users/ryanwahle/fullsail/development/avf1307/AVFDemoApp/platforms/android/bin/AndroidManifest.xml \
