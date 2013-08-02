@@ -11,7 +11,7 @@ AVF 1307
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>AVF1307</title>
     </head>
-    <body>
+    <body class="pageConnection">
     		<header>
     			<h1>Native</h1>
     			<h2>Connection</h2>
@@ -19,6 +19,8 @@ AVF 1307
     		
     		<section>
     			<h3>You are currently connected to the internet via <span id="connectionType"></span></h3>
+    			<h3>Device Version is <span id="deviceVersion"></span></h3>
+    			<h3>Cordova Version is <span id="cordovaVersion"></span></h3>
     		</section>
     		
     		<footer>
@@ -29,9 +31,5 @@ AVF 1307
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-            //connection.initialize();
-        </script>
     </body>
 </html>
